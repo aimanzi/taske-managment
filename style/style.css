@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+body,
+html {
+    height: 100%;
+    background-image: url(/img/113677977-multitasking-woman.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: rgb(82, 78, 78);
+    border: solid rgb(230, 216, 216) 2px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.task-contaner {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.main-contaner {
+    padding: 10px 20px;
+}
+
+.task-contaner label {
+    color: rgb(12, 12, 177);
+    padding-right: 28px;
+    font-weight: bold;
+}
+
+.task-contaner input {
+    padding: 10px 0;
+    display: flex;
+    flex-grow: 0.63;
+}
+
+.task-contaner button {
+    background-color: rgb(207, 198, 198);
+    color: black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-left: 30px;
+    border: solid black 1px;
+    font-size: small;
+}
+
+.data-contaner {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.data-contaner label {
+    color: rgb(12, 12, 177);
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.data-contaner .time-contaner {
+    margin: 0 20px;
+}
+
+.data-contaner input {
+    padding: 10px;
+}
+
+.data-contaner button {
+    background-color: rgb(207, 198, 198);
+    color: black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-left: 10px;
+    border: solid black 1px;
+    font-size: small;
+}
+
+.main-tabel {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.main-tabel table {
+    flex-grow: 1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    border-spacing: 5px 2px;
+}
+
+.main-tabel table thead tr td {
+    font-weight: bold;
+    color: blue;
+    padding: 15px 20px;
+    border: 1px solid black;
+    font-weight: bolder;
+}
+
+.main-tabel table tbody tr {
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-weight:bolder;
+}
+
+.main-tabel table tbody tr td {
+    padding: 15px 20px;
+    border: 1px solid rgb(194, 169, 169);
+    
+}
+
+#savedata:hover,
+#addtask:hover {
+    background-color: blue;
+    color: white;
+}
+#cleartext:hover,
+#Resetdate:hover,
+#Resettime:hover,
+#cleardata:hover {
+    background-color: red;
+    color: white;
+}
+
+select {
+    height: 30px;
+    font-size: 16px;
+    line-height: 20px;
+    color: red;
+}
+
+.done {
+    background-color: rgb(166, 207, 166);
+}
+.onbording{
+    background-color: white;
+
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+
+<body>
+    <h1>Task List</h1>
+    <div class="main-contaner">
+        <div class="task-contaner">
+            <label>Task Discription : </label>
+            <input type="text" id="task_discription">
+            <button class="button1" id="cleartext">Clear Text</button>
+        </div>
+        <div class="data-contaner">
+            <div>
+                <label>Date To Execution : </label>
+                <input placeholder="MM/DD/YYYY" type="date" id="task_date">
+            </div>
+            <div class="time-contaner">
+                <label>Time To Execution : </label>
+                <input placeholder="HH:MM AM/PM" class="time_input" type="time" id="task_time">
+            </div>
+            <button id="addtask" onclick="validationFunction()">Add Task</button>
+            <button class="button1" id="savedata">Save Status</button>
+            <button class="button1" id="Resetdate">Reset Date</button>
+            <button class="button1" id="Resettime">Reset Time</button>
+            <button class="button1" id="cleardata">Clear All Task's</button>
+        </div>
+    </div>
+    <div class="main-tabel">
+        <table>
+            <thead>
+                <tr>
+                    <td>Task Discription</td>
+                    <td>End Date Execution</td>
+                    <td>End Time Execution</td>
+                    <td>Task Statuse
+                    </td>
+                </tr>
+            </thead>
+            <tbody id="datadisplay" class="tbody-contaner"></tbody>
+
+            </tbody>
+        </table>
+
+    </div>
+
+    <script src="/javascript/script.js"></script>
+</body>
+
+</html>
